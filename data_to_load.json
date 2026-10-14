@@ -1,0 +1,1200 @@
+[
+    {
+        "area": 49,
+        "alpha2Code": "BV",
+        "name": "Bouvet Island",
+        "latitude": -54.43333333,
+        "longitude": 3.4,
+        "region": "Antarctic Ocean",
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "population": 0,
+        "populationDensity": 0
+    },
+    {
+        "area": 412,
+        "alpha2Code": "HM",
+        "name": "Heard Island and McDonald Islands",
+        "latitude": -53.1,
+        "longitude": 72.51666666,
+        "region": "Antarctic",
+        "timezones": [
+            "UTC+05:00"
+        ],
+        "population": 0,
+        "populationDensity": 0
+    },
+    {
+        "area": 47,
+        "alpha2Code": "PN",
+        "name": "Pitcairn",
+        "latitude": -25.06666666,
+        "longitude": -130.1,
+        "region": "Oceania",
+        "timezones": [
+            "UTC-08:00"
+        ],
+        "population": 56,
+        "populationDensity": 1.19
+    },
+    {
+        "area": 7747,
+        "alpha2Code": "TF",
+        "name": "French Southern Territories",
+        "latitude": -49.25,
+        "longitude": 69.167,
+        "region": "Africa",
+        "timezones": [
+            "UTC+05:00"
+        ],
+        "population": 140,
+        "populationDensity": 0.02
+    },
+    {
+        "area": 0.44,
+        "alpha2Code": "VA",
+        "name": "Vatican City",
+        "latitude": 41.9,
+        "longitude": 12.45,
+        "region": "Europe",
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "population": 451,
+        "populationDensity": 1025
+    },
+    {
+        "area": 14,
+        "alpha2Code": "CC",
+        "name": "Cocos (Keeling) Islands",
+        "latitude": -12.5,
+        "longitude": 96.83333333,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+06:30"
+        ],
+        "population": 550,
+        "populationDensity": 39.29
+    },
+    {
+        "area": 14000000,
+        "alpha2Code": "AQ",
+        "name": "Antarctica",
+        "latitude": -74.65,
+        "longitude": 4.48,
+        "region": "Polar",
+        "timezones": [
+            "UTC-03:00",
+            "UTC+03:00",
+            "UTC+05:00",
+            "UTC+06:00",
+            "UTC+07:00",
+            "UTC+08:00",
+            "UTC+10:00",
+            "UTC+12:00"
+        ],
+        "population": 1000,
+        "populationDensity": 0
+    },
+    {
+        "area": 12,
+        "alpha2Code": "TK",
+        "name": "Tokelau",
+        "latitude": -9,
+        "longitude": -172,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+13:00"
+        ],
+        "population": 1411,
+        "populationDensity": 117.58
+    },
+    {
+        "area": 260,
+        "alpha2Code": "NU",
+        "name": "Niue",
+        "latitude": -19.03333333,
+        "longitude": -169.86666666,
+        "region": "Oceania",
+        "timezones": [
+            "UTC-11:00"
+        ],
+        "population": 1470,
+        "populationDensity": 5.65
+    },
+    {
+        "area": 135,
+        "alpha2Code": "CX",
+        "name": "Christmas Island",
+        "latitude": -10.5,
+        "longitude": 105.66666666,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+07:00"
+        ],
+        "population": 2072,
+        "populationDensity": 15.35
+    },
+    {
+        "area": 36,
+        "alpha2Code": "NF",
+        "name": "Norfolk Island",
+        "latitude": -29.03333333,
+        "longitude": 167.95,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+11:30"
+        ],
+        "population": 2302,
+        "populationDensity": 63.94
+    },
+    {
+        "area": 12173,
+        "alpha2Code": "FK",
+        "name": "Falkland Islands (Malvinas)",
+        "latitude": -51.75,
+        "longitude": -59,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 2563,
+        "populationDensity": 0.21
+    },
+    {
+        "area": 60,
+        "alpha2Code": "IO",
+        "name": "British Indian Ocean Territory",
+        "latitude": -6,
+        "longitude": 71.5,
+        "region": "Africa",
+        "timezones": [
+            "UTC+06:00"
+        ],
+        "population": 3000,
+        "populationDensity": 50
+    },
+    {
+        "area": 102,
+        "alpha2Code": "MS",
+        "name": "Montserrat",
+        "latitude": 16.75,
+        "longitude": -62.2,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 4922,
+        "populationDensity": 48.25
+    },
+    {
+        "area": 242,
+        "alpha2Code": "PM",
+        "name": "Saint Pierre and Miquelon",
+        "latitude": 46.83333333,
+        "longitude": -56.33333333,
+        "region": "Americas",
+        "timezones": [
+            "UTC-03:00"
+        ],
+        "population": 6069,
+        "populationDensity": 25.08
+    },
+    {
+        "area": 21,
+        "alpha2Code": "BL",
+        "name": "Saint Barth\u00e9lemy",
+        "latitude": 18.5,
+        "longitude": -63.41666666,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 9417,
+        "populationDensity": 448.43
+    },
+    {
+        "area": 21,
+        "alpha2Code": "NR",
+        "name": "Nauru",
+        "latitude": -0.53333333,
+        "longitude": 166.91666666,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+12:00"
+        ],
+        "population": 10834,
+        "populationDensity": 515.9
+    },
+    {
+        "area": 142,
+        "alpha2Code": "WF",
+        "name": "Wallis and Futuna",
+        "latitude": -13.3,
+        "longitude": -176.2,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+12:00"
+        ],
+        "population": 11750,
+        "populationDensity": 82.75
+    },
+    {
+        "area": 26,
+        "alpha2Code": "TV",
+        "name": "Tuvalu",
+        "latitude": -8,
+        "longitude": 178,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+12:00"
+        ],
+        "population": 11792,
+        "populationDensity": 453.54
+    },
+    {
+        "area": 91,
+        "alpha2Code": "AI",
+        "name": "Anguilla",
+        "latitude": 18.25,
+        "longitude": -63.16666666,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 13452,
+        "populationDensity": 147.82
+    },
+    {
+        "area": 294,
+        "alpha2Code": "BQ",
+        "name": "Bonaire, Sint Eustatius and Saba",
+        "latitude": 12.15,
+        "longitude": -68.266667,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 17408,
+        "populationDensity": 59.21
+    },
+    {
+        "area": 459,
+        "alpha2Code": "PW",
+        "name": "Palau",
+        "latitude": 7.5,
+        "longitude": 134.5,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+09:00"
+        ],
+        "population": 18092,
+        "populationDensity": 39.42
+    },
+    {
+        "area": 236,
+        "alpha2Code": "CK",
+        "name": "Cook Islands",
+        "latitude": -21.23333333,
+        "longitude": -159.76666666,
+        "region": "Oceania",
+        "timezones": [
+            "UTC-10:00"
+        ],
+        "population": 18100,
+        "populationDensity": 76.69
+    },
+    {
+        "area": 1580,
+        "alpha2Code": "AX",
+        "name": "\u00c5land Islands",
+        "latitude": 60.116667,
+        "longitude": 19.9,
+        "region": "Europe",
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "population": 28875,
+        "populationDensity": 18.28
+    },
+    {
+        "area": 151,
+        "alpha2Code": "VG",
+        "name": "Virgin Islands (British)",
+        "latitude": 18.431383,
+        "longitude": -64.62305,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 30237,
+        "populationDensity": 200.25
+    },
+    {
+        "area": 6,
+        "alpha2Code": "GI",
+        "name": "Gibraltar",
+        "latitude": 36.13333333,
+        "longitude": -5.35,
+        "region": "Europe",
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "population": 33691,
+        "populationDensity": 5615.17
+    },
+    {
+        "area": 61,
+        "alpha2Code": "SM",
+        "name": "San Marino",
+        "latitude": 43.76666666,
+        "longitude": 12.41666666,
+        "region": "Europe",
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "population": 33938,
+        "populationDensity": 556.36
+    },
+    {
+        "area": 160,
+        "alpha2Code": "LI",
+        "name": "Liechtenstein",
+        "latitude": 47.26666666,
+        "longitude": 9.53333333,
+        "region": "Europe",
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "population": 38137,
+        "populationDensity": 238.36
+    },
+    {
+        "area": 53,
+        "alpha2Code": "MF",
+        "name": "Saint Martin (French part)",
+        "latitude": 18.08333333,
+        "longitude": -63.95,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 38659,
+        "populationDensity": 729.42
+    },
+    {
+        "area": 948,
+        "alpha2Code": "TC",
+        "name": "Turks and Caicos Islands",
+        "latitude": 21.75,
+        "longitude": -71.58333333,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 38718,
+        "populationDensity": 40.84
+    },
+    {
+        "area": 2.02,
+        "alpha2Code": "MC",
+        "name": "Monaco",
+        "latitude": 43.73333333,
+        "longitude": 7.4,
+        "region": "Europe",
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "population": 39244,
+        "populationDensity": 19427.72
+    },
+    {
+        "area": 34,
+        "alpha2Code": "SX",
+        "name": "Sint Maarten (Dutch part)",
+        "latitude": 18.033333,
+        "longitude": -63.05,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 40812,
+        "populationDensity": 1200.35
+    },
+    {
+        "area": 1393,
+        "alpha2Code": "FO",
+        "name": "Faroe Islands",
+        "latitude": 62,
+        "longitude": -7,
+        "region": "Europe",
+        "timezones": [
+            "UTC+00:00"
+        ],
+        "population": 48865,
+        "populationDensity": 35.08
+    },
+    {
+        "area": 261,
+        "alpha2Code": "KN",
+        "name": "Saint Kitts and Nevis",
+        "latitude": 17.33333333,
+        "longitude": -62.75,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 53192,
+        "populationDensity": 203.8
+    },
+    {
+        "area": 199,
+        "alpha2Code": "AS",
+        "name": "American Samoa",
+        "latitude": -14.33333333,
+        "longitude": -170,
+        "region": "Oceania",
+        "timezones": [
+            "UTC-11:00"
+        ],
+        "population": 55197,
+        "populationDensity": 277.37
+    },
+    {
+        "area": 2166086,
+        "alpha2Code": "GL",
+        "name": "Greenland",
+        "latitude": 72,
+        "longitude": -40,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00",
+            "UTC-03:00",
+            "UTC-01:00",
+            "UTC+00:00"
+        ],
+        "population": 56367,
+        "populationDensity": 0.03
+    },
+    {
+        "area": 464,
+        "alpha2Code": "MP",
+        "name": "Northern Mariana Islands",
+        "latitude": 15.2,
+        "longitude": 145.75,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+10:00"
+        ],
+        "population": 57557,
+        "populationDensity": 124.05
+    },
+    {
+        "area": 181,
+        "alpha2Code": "MH",
+        "name": "Marshall Islands",
+        "latitude": 9,
+        "longitude": 168,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+12:00"
+        ],
+        "population": 59194,
+        "populationDensity": 327.04
+    },
+    {
+        "area": 78,
+        "alpha2Code": "GG",
+        "name": "Guernsey",
+        "latitude": 49.46666666,
+        "longitude": -2.58333333,
+        "region": "Europe",
+        "timezones": [
+            "UTC+00:00"
+        ],
+        "population": 62999,
+        "populationDensity": 807.68
+    },
+    {
+        "area": 54,
+        "alpha2Code": "BM",
+        "name": "Bermuda",
+        "latitude": 32.33333333,
+        "longitude": -64.75,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 63903,
+        "populationDensity": 1183.39
+    },
+    {
+        "area": 264,
+        "alpha2Code": "KY",
+        "name": "Cayman Islands",
+        "latitude": 19.5,
+        "longitude": -80.5,
+        "region": "Americas",
+        "timezones": [
+            "UTC-05:00"
+        ],
+        "population": 65720,
+        "populationDensity": 248.94
+    },
+    {
+        "area": 751,
+        "alpha2Code": "DM",
+        "name": "Dominica",
+        "latitude": 15.41666666,
+        "longitude": -61.33333333,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 71991,
+        "populationDensity": 95.86
+    },
+    {
+        "area": 468,
+        "alpha2Code": "AD",
+        "name": "Andorra",
+        "latitude": 42.5,
+        "longitude": 1.5,
+        "region": "Europe",
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "population": 77265,
+        "populationDensity": 165.1
+    },
+    {
+        "area": 572,
+        "alpha2Code": "IM",
+        "name": "Isle of Man",
+        "latitude": 54.25,
+        "longitude": -4.5,
+        "region": "Europe",
+        "timezones": [
+            "UTC+00:00"
+        ],
+        "population": 85032,
+        "populationDensity": 148.66
+    },
+    {
+        "area": 442,
+        "alpha2Code": "AG",
+        "name": "Antigua and Barbuda",
+        "latitude": 17.05,
+        "longitude": -61.8,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 97928,
+        "populationDensity": 221.56
+    },
+    {
+        "area": 452,
+        "alpha2Code": "SC",
+        "name": "Seychelles",
+        "latitude": -4.58333333,
+        "longitude": 55.66666666,
+        "region": "Africa",
+        "timezones": [
+            "UTC+04:00"
+        ],
+        "population": 98462,
+        "populationDensity": 217.84
+    },
+    {
+        "area": 116,
+        "alpha2Code": "JE",
+        "name": "Jersey",
+        "latitude": 49.25,
+        "longitude": -2.16666666,
+        "region": "Europe",
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "population": 100800,
+        "populationDensity": 868.97
+    },
+    {
+        "area": 747,
+        "alpha2Code": "TO",
+        "name": "Tonga",
+        "latitude": -20,
+        "longitude": -175,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+13:00"
+        ],
+        "population": 105697,
+        "populationDensity": 141.5
+    },
+    {
+        "area": 346.36,
+        "alpha2Code": "VI",
+        "name": "Virgin Islands (U.S.)",
+        "latitude": 18.34,
+        "longitude": -64.93,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 106290,
+        "populationDensity": 306.88
+    },
+    {
+        "area": 180,
+        "alpha2Code": "AW",
+        "name": "Aruba",
+        "latitude": 12.5,
+        "longitude": -69.96666666,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 106766,
+        "populationDensity": 593.14
+    },
+    {
+        "area": 389,
+        "alpha2Code": "VC",
+        "name": "Saint Vincent and the Grenadines",
+        "latitude": 13.25,
+        "longitude": -61.2,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 110947,
+        "populationDensity": 285.21
+    },
+    {
+        "area": 344,
+        "alpha2Code": "GD",
+        "name": "Grenada",
+        "latitude": 12.11666666,
+        "longitude": -61.66666666,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 112519,
+        "populationDensity": 327.09
+    },
+    {
+        "area": 702,
+        "alpha2Code": "FM",
+        "name": "Micronesia (Federated States of)",
+        "latitude": 6.91666666,
+        "longitude": 158.25,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+10:00",
+            "UTC+11:00"
+        ],
+        "population": 115021,
+        "populationDensity": 163.85
+    },
+    {
+        "area": 811,
+        "alpha2Code": "KI",
+        "name": "Kiribati",
+        "latitude": 1.41666666,
+        "longitude": 173,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+12:00",
+            "UTC+13:00",
+            "UTC+14:00"
+        ],
+        "population": 119446,
+        "populationDensity": 147.28
+    },
+    {
+        "area": 444,
+        "alpha2Code": "CW",
+        "name": "Cura\u00e7ao",
+        "latitude": 12.116667,
+        "longitude": -68.933333,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 155014,
+        "populationDensity": 349.13
+    },
+    {
+        "area": 549,
+        "alpha2Code": "GU",
+        "name": "Guam",
+        "latitude": 13.46666666,
+        "longitude": 144.78333333,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+10:00"
+        ],
+        "population": 168783,
+        "populationDensity": 307.44
+    },
+    {
+        "area": 616,
+        "alpha2Code": "LC",
+        "name": "Saint Lucia",
+        "latitude": 13.88333333,
+        "longitude": -60.96666666,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 183629,
+        "populationDensity": 298.1
+    },
+    {
+        "area": 2842,
+        "alpha2Code": "WS",
+        "name": "Samoa",
+        "latitude": -13.58333333,
+        "longitude": -172.33333333,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+13:00"
+        ],
+        "population": 198410,
+        "populationDensity": 69.81
+    },
+    {
+        "area": 964,
+        "alpha2Code": "ST",
+        "name": "Sao Tome and Principe",
+        "latitude": 1,
+        "longitude": 7,
+        "region": "Africa",
+        "timezones": [
+            "UTC"
+        ],
+        "population": 219161,
+        "populationDensity": 227.35
+    },
+    {
+        "area": 18575,
+        "alpha2Code": "NC",
+        "name": "New Caledonia",
+        "latitude": -21.5,
+        "longitude": 165.5,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+11:00"
+        ],
+        "population": 271960,
+        "populationDensity": 14.64
+    },
+    {
+        "area": 4167,
+        "alpha2Code": "PF",
+        "name": "French Polynesia",
+        "latitude": -15,
+        "longitude": -140,
+        "region": "Oceania",
+        "timezones": [
+            "UTC-10:00",
+            "UTC-09:30",
+            "UTC-09:00"
+        ],
+        "population": 280904,
+        "populationDensity": 67.41
+    },
+    {
+        "area": 430,
+        "alpha2Code": "BB",
+        "name": "Barbados",
+        "latitude": 13.16666666,
+        "longitude": -59.53333333,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 287371,
+        "populationDensity": 668.3
+    },
+    {
+        "area": 12189,
+        "alpha2Code": "VU",
+        "name": "Vanuatu",
+        "latitude": -16,
+        "longitude": 167,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+11:00"
+        ],
+        "population": 307150,
+        "populationDensity": 25.2
+    },
+    {
+        "area": 103000,
+        "alpha2Code": "IS",
+        "name": "Iceland",
+        "latitude": 65,
+        "longitude": -18,
+        "region": "Europe",
+        "timezones": [
+            "UTC"
+        ],
+        "population": 366425,
+        "populationDensity": 3.56
+    },
+    {
+        "area": 13943,
+        "alpha2Code": "BS",
+        "name": "Bahamas",
+        "latitude": 24.25,
+        "longitude": -76,
+        "region": "Americas",
+        "timezones": [
+            "UTC-05:00"
+        ],
+        "population": 393248,
+        "populationDensity": 28.2
+    },
+    {
+        "area": 22966,
+        "alpha2Code": "BZ",
+        "name": "Belize",
+        "latitude": 17.25,
+        "longitude": -88.75,
+        "region": "Americas",
+        "timezones": [
+            "UTC-06:00"
+        ],
+        "population": 397621,
+        "populationDensity": 17.31
+    },
+    {
+        "area": 5765,
+        "alpha2Code": "BN",
+        "name": "Brunei Darussalam",
+        "latitude": 4.5,
+        "longitude": 114.66666666,
+        "region": "Asia",
+        "timezones": [
+            "UTC+08:00"
+        ],
+        "population": 437483,
+        "populationDensity": 75.89
+    },
+    {
+        "area": 266000,
+        "alpha2Code": "EH",
+        "name": "Western Sahara",
+        "latitude": 24.5,
+        "longitude": -13,
+        "region": "Africa",
+        "timezones": [
+            "UTC+00:00"
+        ],
+        "population": 510713,
+        "populationDensity": 1.92
+    },
+    {
+        "area": 316,
+        "alpha2Code": "MT",
+        "name": "Malta",
+        "latitude": 35.83333333,
+        "longitude": 14.58333333,
+        "region": "Europe",
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "population": 525285,
+        "populationDensity": 1662.29
+    },
+    {
+        "area": 300,
+        "alpha2Code": "MV",
+        "name": "Maldives",
+        "latitude": 3.25,
+        "longitude": 73,
+        "region": "Asia",
+        "timezones": [
+            "UTC+05:00"
+        ],
+        "population": 540542,
+        "populationDensity": 1801.81
+    },
+    {
+        "area": 4033,
+        "alpha2Code": "CV",
+        "name": "Cabo Verde",
+        "latitude": 16,
+        "longitude": -24,
+        "region": "Africa",
+        "timezones": [
+            "UTC-01:00"
+        ],
+        "population": 555988,
+        "populationDensity": 137.86
+    },
+    {
+        "area": 163820,
+        "alpha2Code": "SR",
+        "name": "Suriname",
+        "latitude": 4,
+        "longitude": -56,
+        "region": "Americas",
+        "timezones": [
+            "UTC-03:00"
+        ],
+        "population": 586634,
+        "populationDensity": 3.58
+    },
+    {
+        "area": 13812,
+        "alpha2Code": "ME",
+        "name": "Montenegro",
+        "latitude": 42.5,
+        "longitude": 19.3,
+        "region": "Europe",
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "population": 621718,
+        "populationDensity": 45.01
+    },
+    {
+        "area": 2586,
+        "alpha2Code": "LU",
+        "name": "Luxembourg",
+        "latitude": 49.75,
+        "longitude": 6.16666666,
+        "region": "Europe",
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "population": 632275,
+        "populationDensity": 244.5
+    },
+    {
+        "area": 30,
+        "alpha2Code": "MO",
+        "name": "Macao",
+        "latitude": 22.16666666,
+        "longitude": 113.55,
+        "region": "Asia",
+        "timezones": [
+            "UTC+08:00"
+        ],
+        "population": 649342,
+        "populationDensity": 21644.73
+    },
+    {
+        "area": 28896,
+        "alpha2Code": "SB",
+        "name": "Solomon Islands",
+        "latitude": -8,
+        "longitude": 159,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+11:00"
+        ],
+        "population": 686878,
+        "populationDensity": 23.77
+    },
+    {
+        "area": 38394,
+        "alpha2Code": "BT",
+        "name": "Bhutan",
+        "latitude": 27.5,
+        "longitude": 90.5,
+        "region": "Asia",
+        "timezones": [
+            "UTC+06:00"
+        ],
+        "population": 771612,
+        "populationDensity": 20.1
+    },
+    {
+        "area": 214969,
+        "alpha2Code": "GY",
+        "name": "Guyana",
+        "latitude": 5,
+        "longitude": -59,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 786559,
+        "populationDensity": 3.66
+    },
+    {
+        "area": 1862,
+        "alpha2Code": "KM",
+        "name": "Comoros",
+        "latitude": -12.16666666,
+        "longitude": 44.25,
+        "region": "Africa",
+        "timezones": [
+            "UTC+03:00"
+        ],
+        "population": 869595,
+        "populationDensity": 467.02
+    },
+    {
+        "area": 18272,
+        "alpha2Code": "FJ",
+        "name": "Fiji",
+        "latitude": -18,
+        "longitude": 175,
+        "region": "Oceania",
+        "timezones": [
+            "UTC+12:00"
+        ],
+        "population": 896444,
+        "populationDensity": 49.06
+    },
+    {
+        "area": 23200,
+        "alpha2Code": "DJ",
+        "name": "Djibouti",
+        "latitude": 11.5,
+        "longitude": 43,
+        "region": "Africa",
+        "timezones": [
+            "UTC+03:00"
+        ],
+        "population": 988002,
+        "populationDensity": 42.59
+    },
+    {
+        "area": 17364,
+        "alpha2Code": "SZ",
+        "name": "Swaziland",
+        "latitude": -26.5,
+        "longitude": 31.5,
+        "region": "Africa",
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "population": 1160164,
+        "populationDensity": 66.81
+    },
+    {
+        "area": 9251,
+        "alpha2Code": "CY",
+        "name": "Cyprus",
+        "latitude": 35,
+        "longitude": 33,
+        "region": "Europe",
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "population": 1207361,
+        "populationDensity": 130.51
+    },
+    {
+        "area": 2040,
+        "alpha2Code": "MU",
+        "name": "Mauritius",
+        "latitude": -20.28333333,
+        "longitude": 57.55,
+        "region": "Africa",
+        "timezones": [
+            "UTC+04:00"
+        ],
+        "population": 1265740,
+        "populationDensity": 620.46
+    },
+    {
+        "area": 14874,
+        "alpha2Code": "TL",
+        "name": "Timor-Leste",
+        "latitude": -8.83333333,
+        "longitude": 125.91666666,
+        "region": "Asia",
+        "timezones": [
+            "UTC+09:00"
+        ],
+        "population": 1318442,
+        "populationDensity": 88.64
+    },
+    {
+        "area": 45227,
+        "alpha2Code": "EE",
+        "name": "Estonia",
+        "latitude": 59,
+        "longitude": 26,
+        "region": "Europe",
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "population": 1331057,
+        "populationDensity": 29.43
+    },
+    {
+        "area": 5130,
+        "alpha2Code": "TT",
+        "name": "Trinidad and Tobago",
+        "latitude": 11,
+        "longitude": -61,
+        "region": "Americas",
+        "timezones": [
+            "UTC-04:00"
+        ],
+        "population": 1399491,
+        "populationDensity": 272.81
+    },
+    {
+        "area": 28051,
+        "alpha2Code": "GQ",
+        "name": "Equatorial Guinea",
+        "latitude": 2,
+        "longitude": 10,
+        "region": "Africa",
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "population": 1402985,
+        "populationDensity": 50.02
+    },
+    {
+        "area": 765,
+        "alpha2Code": "BH",
+        "name": "Bahrain",
+        "latitude": 26,
+        "longitude": 50.55,
+        "region": "Asia",
+        "timezones": [
+            "UTC+03:00"
+        ],
+        "population": 1701583,
+        "populationDensity": 2224.29
+    },
+    {
+        "area": 10908,
+        "alpha2Code": "XK",
+        "name": "Republic of Kosovo",
+        "latitude": 42.666667,
+        "longitude": 21.166667,
+        "region": "Europe",
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "population": 1775378,
+        "populationDensity": 162.76
+    },
+    {
+        "area": 64559,
+        "alpha2Code": "LV",
+        "name": "Latvia",
+        "latitude": 57,
+        "longitude": 25,
+        "region": "Europe",
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "population": 1901548,
+        "populationDensity": 29.45
+    }
+]
