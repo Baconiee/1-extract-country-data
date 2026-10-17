@@ -1,7 +1,13 @@
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+import psycopg
 import requests
-import json
+import os
+from dotenv import load_dotenv
+from datetime import datetime, timezone
+from psycopg.types.json import Jsonb
+
+load_dotenv()
 
 retry = Retry(
     total=3,
@@ -13,32 +19,92 @@ retry = Retry(
 session = requests.Session()
 adapter = HTTPAdapter(max_retries=retry)
 session.mount("https://", adapter)
-country_data_list = session.get("https://countries.dev/countries?fields=name%2Ccapital%2Cflag&full=true&sort=population&limit=100&offset=0").json()
+response = session.get("https://countries.dev/countries?fields=name%2Ccapital%2Cflag&full=true&sort=population", timeout=10)
+response.raise_for_status()
+country_data_list = response.json()
+
+extreacted_at = datetime.now(timezone.utc).isoformat()
+
+required_fields = [
+    "area",
+    "alpha2Code",
+    "name",
+    "latlng",
+    "region",
+    "timezones",
+    "population",
+    "populationDensity",
+]
 
 data_to_load = []
 accepted_rows = 0
 rejected_rows = 0
-for i in range(len(country_data_list)):
-    if "area" not in country_data_list[i]:
+for country in country_data_list:
+    if any(
+        field not in country or country[field] is None 
+        for field in required_fields
+    ):
+        rejected_rows += 1
+        continue
+
+    latlng = country["latlng"]
+    if not isinstance(latlng, list) or len(latlng) != 2:
         rejected_rows += 1
         continue
 
     country_data = {
-        "area": country_data_list[i]["area"],
-        "alpha2Code": country_data_list[i]["alpha2Code"],
-        "name": country_data_list[i]["name"],
-        "latitude": country_data_list[i]["latlng"][0],
-        "longitude": country_data_list[i]["latlng"][1],
-        "region": country_data_list[i]["region"],
-        "timezones": country_data_list[i]["timezones"],
-        "population": country_data_list[i]["population"],
-        "populationDensity": country_data_list[i]["populationDensity"]
-
+        "area": country["area"],
+        "alpha2Code": country["alpha2Code"],
+        "name": country["name"],
+        "latitude": latlng[0],
+        "longitude": latlng[1],
+        "region": country["region"],
+        "timezones": country["timezones"],
+        "population": country["population"],
+        "population_density": country["populationDensity"],
     }
     data_to_load.append(country_data)
     accepted_rows += 1
 
-with open("data_to_load.json", "w") as file:
-    json.dump(data_to_load, file, indent=4)
-print(accepted_rows, rejected_rows)
+with psycopg.connect(host="localhost",
+    port=5432,
+    dbname=os.environ["POSTGRES_DB"],
+    user=os.environ["POSTGRES_USER"],
+    password=os.environ["POSTGRES_PASSWORD"]) as conn:
+    print("Connection is successfull")
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO extraction_runs (rows_accepted, rows_rejected, extracted_at)
+            VALUES(%s, %s, %s)
+            RETURNING id
+            """,
+            (accepted_rows, rejected_rows, extreacted_at)
+        )
+
+        extraction_run_id = cur.fetchone()[0]
+
+        cur.executemany(
+            """
+            INSERT INTO countries (extraction_run_id, alpha2_code, area, name, latitude, longitude, region, timezones, population, population_density)
+            VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            """,
+            [
+                (
+                    extraction_run_id,
+                    country["alpha2Code"],
+                    country["area"], 
+                    country["name"], 
+                    country["latitude"], 
+                    country["longitude"], 
+                    country["region"], 
+                    Jsonb(country["timezones"]),
+                    country["population"], 
+                    country["population_density"]
+                )
+                for country in data_to_load
+            ]
+        )
+
+
 
