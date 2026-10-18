@@ -26,7 +26,7 @@ This project loads country data from [countries.dev](https://countries.dev) into
    ```bash
    python -m venv .venv
    source .venv/bin/activate  # Windows: .venv\Scripts\activate
-   pip install requests psycopg[binary] python-dotenv
+   pip install -r requirements.txt
    ```
 
 4. Create a `.env` file in the project root with the database settings used by `docker-compose.yml`:
