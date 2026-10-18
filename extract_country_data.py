@@ -66,8 +66,9 @@ for country in country_data_list:
     data_to_load.append(country_data)
     accepted_rows += 1
 
-with psycopg.connect(host="localhost",
-    port=5432,
+with psycopg.connect(
+    host=os.environ["POSTGRES_HOST"],
+    port=int(os.environ["POSTGRES_POST"]),
     dbname=os.environ["POSTGRES_DB"],
     user=os.environ["POSTGRES_USER"],
     password=os.environ["POSTGRES_PASSWORD"]) as conn:
