@@ -68,7 +68,7 @@ for country in country_data_list:
 
 with psycopg.connect(
     host=os.environ["POSTGRES_HOST"],
-    port=int(os.environ["POSTGRES_POST"]),
+    port=int(os.environ["POSTGRES_PORT"]),
     dbname=os.environ["POSTGRES_DB"],
     user=os.environ["POSTGRES_USER"],
     password=os.environ["POSTGRES_PASSWORD"]) as conn:

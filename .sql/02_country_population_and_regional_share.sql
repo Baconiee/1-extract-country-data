@@ -7,6 +7,6 @@ SELECT
         PARTITION BY region
     ) * 100, 2) AS regional_population_share
 FROM countries
-WHERE extraction_run_id = 3 AND
+WHERE extraction_run_id = 1 AND
       population != 0
 ORDER BY population DESC;

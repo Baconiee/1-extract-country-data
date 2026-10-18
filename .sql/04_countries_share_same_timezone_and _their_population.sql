@@ -5,6 +5,6 @@ SELECT
     SUM(population) sum_of_population
 FROM countries,
      jsonb_array_elements_text(timezones) AS tz(timezone)
-WHERE extraction_run_id = 3
+WHERE extraction_run_id = 1
 GROUP BY timezone
 ORDER BY number_of_countries DESC;
