@@ -1,60 +1,60 @@
 # Country data
 
-This project loads country data from [countries.dev](https://countries.dev) into PostgreSQL and includes SQL queries for exploring it. PostgreSQL runs in Docker; the Python script runs on your computer.
+This project extracts country data from [countries.dev](https://countries.dev), validates required fields, and stores accepted rows in PostgreSQL. Each load is recorded in `extraction_runs`; country rows reference that run. PostgreSQL and the Python loader can both run with Docker Compose.
 
 ## Requirements
 
 - Docker with the Compose plugin
-- Python 3.10+
+- A `.env` file in the project root
 
-## Run the project
+## Configure
 
-1. Start PostgreSQL:
-
-   ```bash
-   docker compose up -d db
-   ```
-
-2. Create the tables:
-
-   ```bash
-   docker compose exec -T db psql -U postgres -d postgres < .sql/01_create_schemas.sql
-   ```
-
-3. Create a virtual environment and install the Python dependencies:
-
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # Windows: .venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-
-4. Create a `.env` file in the project root with the database settings used by `docker-compose.yml`:
-
-   ```dotenv
-   POSTGRES_USER=postgres
-   POSTGRES_PASSWORD=postgres
-   POSTGRES_DB=postgres
-   ```
-
-5. Load the data:
-
-   ```bash
-   python extract_country_data.py
-   ```
-
-## Run the SQL queries
-
-For example, run the population query with:
+Copy `.env.example` to `.env` and set the database name, username, and password. The Compose setup publishes PostgreSQL on port `5433` on your computer and uses port `5432` between containers.
 
 ```bash
-docker compose exec -T db psql -U postgres -d postgres < .sql/02_country_population_and_regional_share.sql
+cp .env.example .env
 ```
 
-Use the same command with another `.sql` file to run a different query. The query files currently filter on `extraction_run_id = 3`; change that value to the ID you want to analyze. Find run IDs with:
+## Start and load data
+
+Start PostgreSQL and wait for its health check:
 
 ```bash
-docker compose exec db psql -U postgres -d postgres -c 'SELECT id, rows_accepted, rows_rejected, extracted_at FROM extraction_runs ORDER BY id DESC;'
+docker compose up -d db
 ```
 
+Create the tables (safe to rerun):
 
+```bash
+docker compose exec -T db psql -U YOUR_POSTGRES_USER -d YOUR_POSTGRES_DB < .sql/01_create_schemas.sql
+```
+
+Replace `YOUR_POSTGRES_USER` and `YOUR_POSTGRES_DB` with the values from `.env`.
+
+Run the loader as a one-off Compose container:
+
+```bash
+docker compose run --rm python-app
+```
+
+The loader requests country data, rejects records missing required fields or a two-item coordinate list, then inserts the accepted countries and a run summary. The `python-app` service connects to PostgreSQL using the internal Compose host and port. To run the Python script directly on your computer instead, install the packages with `pip install -r requirements.txt` and set `POSTGRES_HOST=localhost` and `POSTGRES_PORT=5433` in `.env`.
+
+## Inspect extraction runs
+
+List recent runs to find the ID to use in the analysis queries:
+
+```bash
+docker compose exec db psql -U YOUR_POSTGRES_USER -d YOUR_POSTGRES_DB -c 'SELECT id, rows_accepted, rows_rejected, extracted_at FROM extraction_runs ORDER BY id DESC;'
+```
+
+Replace `YOUR_POSTGRES_USER` and `YOUR_POSTGRES_DB` with the values from `.env`.
+
+## Run the analysis queries
+
+Each query in `.sql/02_*.sql`, `.sql/03_*.sql`, and `.sql/04_*.sql` currently filters on `extraction_run_id = 1`. Edit that value in the query file to analyze a different run, then execute the desired file. For example:
+
+```bash
+docker compose exec -T db psql -U YOUR_POSTGRES_USER -d YOUR_POSTGRES_DB < .sql/02_country_population_and_regional_share.sql
+```
+
+The query files compare countries' population shares within their regions, rank regions by average population density, and summarize populations by shared timezone.
